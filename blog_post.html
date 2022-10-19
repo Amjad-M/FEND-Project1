@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Great Salt Lake</title>
+        <link href="css/main.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+        <link type='text/css' href='https://fonts.googleapis.com/css?family=Quicksand&display=swap' rel='stylesheet'/>
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="header">
+                    <div id="site-name">Amjad's Personal Blog</div>
+                        <nav>
+                            <ul class="nav-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">About Me</a></li>
+                            </ul>
+                        </nav>
+            </header>
+            <section class="blog-post">
+
+                <div class="post">
+                    <h1>Machine Learning</h1>
+                    <h2> What is Machine Learning</h2>
+                    <p>This introduction to machine learning provides an overview of its history, important definitions,
+                        applications and concerns within businesses today.</p>
+
+                    <div class = "horizontal-line"></div>
+                    <p>Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on
+                        the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.
+                       IBM has a rich history with machine learning. One of its own, Arthur Samuel, is credited for coining
+                        the term, “machine learning” with his research (PDF, 481 KB) (link resides outside IBM) around the game of
+                        checkers. Robert Nealey, the self-proclaimed checkers master, played the game on an IBM 7094 computer in 1962,
+                        and he lost to the computer. Compared to what can be done today, this feat almost seems trivial, but it’s
+                        considered a major milestone within the field of artificial intelligence. Over the next couple of decades,
+                        the technological developments around storage and processing power will enable some innovative products that
+                        we know and love today, such as Netflix’s recommendation engine or self-driving cars. </p>
+
+                    <div class="image-div">
+                        <img src="images/post-image.png" alt="ML Applications">
+                        <figcaption class="image-figcaption ">Machine Learning have a diverse applications</figcaption>
+                    </div>
+
+                    <aside class="post-quote">
+                        <blockquote>
+                            <p>Much of what we do with machine learning happens beneath the surface. Machine learning
+                                drives our algorithms for demand forecasting, product search ranking, product and deals
+                                recommendations, merchandising placements, fraud detection, translations, and much more.
+                                Though less visible, much of the impact of machine learning will be of this type - quietly
+                                but meaningfully improving core operations.</p>
+                            <footer> - <cite>Jeff Bezos, Amazon CEO</cite> </footer>
+                        </blockquote>
+                    </aside>
+
+                    <h2>Machine Learning vs. Deep Learning vs. Neural Networks </h2>
+                    <p class="post p"> Since deep learning and machine learning tend to be used interchangeably, it’s worth noting the
+                        nuances between the two. Machine learning, deep learning, and neural networks are all sub-fields
+                        of artificial intelligence. However, deep learning is actually a sub-field of machine learning,
+                        and neural networks is a sub-field of deep learning.</p>
+                    <p class="post p"> "Deep" machine learning can leverage labeled datasets, also known as supervised learning,
+                        to inform its algorithm, but it doesn’t necessarily require a labeled dataset. It can ingest unstructured
+                        data in its raw form (e.g. text, images), and it can automatically determine the set of features which
+                        distinguish different categories of data from one another. Unlike machine learning, it doesn't require human
+                        intervention to process data, allowing us to scale machine learning in more interesting ways. Deep learning
+                        and neural networks are primarily credited with accelerating progress in areas, such as computer vision,
+                        natural language processing, and speech recognition.</p>
+
+                    <h2>How machine learning works </h2>
+                    <ol>
+                        <li>A Decision Process: In general, machine learning algorithms are used to make a prediction or classification.
+                            Based on some input data, which can be labelled or unlabeled, your algorithm will produce an estimate about
+                            a pattern in the data.
+                        </li>
+                            <li>An Error Function: An error function serves to evaluate the prediction of the model. If there are known
+                                examples, an error function can make a comparison to assess the accuracy of the model.
+                            </li>
+                            <li> An Model Optimization Process: If the model can fit better to the data points in the training set, then
+                                weights are adjusted to reduce the discrepancy between the known example and the model estimate.
+                                The algorithm will repeat this evaluate and optimize process, updating weights autonomously until a
+                                threshold of accuracy has been met.
+                            </li>
+                    </ol>
+                </div>
+            </section>
+
+            <aside class="sidebar">
+                    <div class="search-bar">
+                        <input type="text" class="search-input" placeholder="Search this site...">
+                        <button type="submit" class="search-button">
+                            <span class="fa fa-search fa-rotate-90"></span>
+                        </button>
+                    </div>
+
+                    <div class="author-info">
+                        <img src="images/actor woman.png" alt="blog-author">
+                        <p class="author">Welcome to my blog! I'm Amjad Alsuhaimi, an Artificial
+                            Intelligence Engineer. I hope you enjoy discovering and learning
+                            more about Artificial intelligence fields!</p>
+                    </div>
+            </aside>
+
+            <footer class="footer">
+                <div>
+                    <ul class="social-menu">
+                        <li><a href="https://www.linkedin.com/in/amjad-alsuhaimi-4b2b2a178/" class="fa fa-linkedin-square"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                        <li><a href="#" class="fa fa-twitter-square"></a></li>
+                    </ul>
+                </div>
+                <div> &copy; Copyright 2022</div>
+                <div class="contact-me"> <a href="#" class="fa fa-envelope"></a>Contact Me</div>
+            </footer>
+        </div>
+    </body>
+</html>

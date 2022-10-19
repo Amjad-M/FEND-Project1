@@ -1,0 +1,129 @@
+ /* Blog Post */
+
+
+ /* Blog Post Content */
+.post h1,
+.post h2,
+.post h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.post h1 {
+    line-height: 1em;
+    font-size: 4em;
+    text-shadow: 2px 2px #8282
+}
+
+.post h2 {
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.post h3 {
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+.post p, ol,li {
+    adding: 2%;
+    font-size: 1.1em;
+}
+
+/* Sidebar */
+.sidebar {
+    grid-area: sd;
+    background-color: #ffffff;
+    border-right:2px solid #a5b4b9;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.5em;
+    justify-self: center;
+}
+
+/* Sidebar Content*/
+.author-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 10px 10px 20px 10px;
+    font-size: 1.15em;
+    font-family: 'Quicksand';
+    line-height: 1.19em;
+}
+
+.sidebar a {
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+}
+
+/* Quote */
+.post-quote {
+    color: #231E28;
+    font-family: 'Kalam', cursive;
+    font-size: 1.1em;
+    padding: 22px 22px 22px 55px;
+    border-left: 8px solid #93afca;
+    background: #d8d3d0;
+    font-weight: bold;
+    position: relative;
+}
+
+.post-quote:before {
+    content: "\201C";
+    font-family: Arial;
+    color: #93afca;
+    font-size: 70px;
+    position: absolute;
+    left: 15px;
+    top: 80px;
+}
+
+cite {
+    font-size: 0.8em;
+}
+
+/* Blog Image */
+.image-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+img {
+    width: 60%;
+    height: auto;
+    align-self: center;
+    padding-top: 20px;
+
+}
+
+.image-figcaption {
+    font-style: italic;
+    align-self: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+.horizontal-line{
+    border-top: 1px solid gray;
+    width: 98%;
+}
+
+ /* Responsiveness */
+
+/* medium and large screens */
+@media (min-width: 769px) {
+    .post-author {
+        flex-direction: row;
+    }
+}

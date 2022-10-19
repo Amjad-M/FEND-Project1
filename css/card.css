@@ -1,0 +1,73 @@
+/* Post Card */
+
+.content > div {
+
+    margin-bottom: 20px;
+}
+/* Post Card and Content*/
+.post-card {
+    max-width: 550px;
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    box-shadow: 0 5px 15px rgb(1 1 1 / 15%);
+    border-radius: 10px;
+}
+
+.post-card-p {
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 5px 10px rgb(1 1 1 / 15%);
+    font-style: italic;
+    text-align: justify;
+    font-size: 0.9em;
+    height:210px;
+}
+
+.button-pad{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.post-card-image {
+    height: auto;
+
+}
+
+.post-card h2 {
+    font-size: 1.1em;
+    padding: 10px 0 10px 0;
+}
+
+/* Date and Time*/
+.fa-calendar-o{
+    padding-right: 5px;
+}
+
+.fa-clock-o {
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.fa-p{
+    padding-bottom:1px;
+    font-size: 0.85em;
+    color: #c77f4d;
+}
+
+/* Button*/
+.read-button {
+    font-family: 'Lato';
+    font-size: 18px;
+    border: 2px solid #93afca;
+
+    box-shadow: 0 5px 25px rgb(1 1 1 / 15%);
+    border-radius: 5px;
+    width: 140px;
+    height: 2em;
+}
+
+.read-button:hover {
+    background-color: #93afca;
+    color: #ebedef;
+    cursor: pointer;
+    font-weight: 700;
+}
