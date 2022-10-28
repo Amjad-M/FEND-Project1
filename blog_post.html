@@ -3,9 +3,9 @@
 
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Great Salt Lake</title>
-        <link href="css/main.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Machine Learning</title>
+        <link href="css/blog_post.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
@@ -15,21 +15,19 @@
 
     <body>
         <div class="container">
-            <header class="header">
-                    <div id="site-name">Amjad's Personal Blog</div>
-                        <nav>
-                            <ul class="nav-menu">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="#">Gallery</a></li>
-                                <li><a href="#">About Me</a></li>
-                            </ul>
-                        </nav>
-            </header>
-            <section class="blog-post">
+            <div class="header">
+                  <a href="index.html" class="site_name">Amjad's Personal Blog</a>
+                  <div class="header-right">
+                      <a class="active" href="index.html">Home</a>
+                      <a href="#">Gallery</a>
+                      <a href="#">About</a>
+                  </div>
+            </div>
+            <section class="content">
 
                 <div class="post">
                     <h1>Machine Learning</h1>
-                    <h2> What is Machine Learning</h2>
+                    <h3> What is Machine Learning</h3>
                     <p>This introduction to machine learning provides an overview of its history, important definitions,
                         applications and concerns within businesses today.</p>
 
@@ -45,8 +43,10 @@
                         we know and love today, such as Netflix’s recommendation engine or self-driving cars. </p>
 
                     <div class="image-div">
-                        <img src="images/post-image.png" alt="ML Applications">
-                        <figcaption class="image-figcaption ">Machine Learning have a diverse applications</figcaption>
+                        <figure>
+                            <img src="images/post-image.png" alt="ML Applications">
+                            <figcaption class="image-figcaption ">Machine Learning have a diverse applications</figcaption>
+                        </figure>
                     </div>
 
                     <aside class="post-quote">
@@ -60,7 +60,7 @@
                         </blockquote>
                     </aside>
 
-                    <h2>Machine Learning vs. Deep Learning vs. Neural Networks </h2>
+                    <h3>Machine Learning vs. Deep Learning vs. Neural Networks </h3>
                     <p class="post p"> Since deep learning and machine learning tend to be used interchangeably, it’s worth noting the
                         nuances between the two. Machine learning, deep learning, and neural networks are all sub-fields
                         of artificial intelligence. However, deep learning is actually a sub-field of machine learning,
@@ -73,7 +73,7 @@
                         and neural networks are primarily credited with accelerating progress in areas, such as computer vision,
                         natural language processing, and speech recognition.</p>
 
-                    <h2>How machine learning works </h2>
+                    <h3>How machine learning works </h3>
                     <ol>
                         <li>A Decision Process: In general, machine learning algorithms are used to make a prediction or classification.
                             Based on some input data, which can be labelled or unlabeled, your algorithm will produce an estimate about
@@ -92,19 +92,19 @@
             </section>
 
             <aside class="sidebar">
-                    <div class="search-bar">
-                        <input type="text" class="search-input" placeholder="Search this site...">
-                        <button type="submit" class="search-button">
-                            <span class="fa fa-search fa-rotate-90"></span>
-                        </button>
-                    </div>
+                <div class="search-bar">
+                    <input type="text" class="search-input" placeholder="Search this site...">
+                    <button type="submit" class="search-button">
+                        <span class="fa fa-search fa-rotate-90"></span>
+                    </button>
+                </div>
 
-                    <div class="author-info">
-                        <img src="images/actor woman.png" alt="blog-author">
-                        <p class="author">Welcome to my blog! I'm Amjad Alsuhaimi, an Artificial
-                            Intelligence Engineer. I hope you enjoy discovering and learning
-                            more about Artificial intelligence fields!</p>
-                    </div>
+                <div class="author-info">
+                    <img class="author-image" src="images/actor woman.png" alt="blog-author">
+                    <p class="author">Welcome to my blog! I'm <b>Amjad Alsuhaimi</b>, an <span class="author-job">Artificial
+                        Intelligence Engineer</span>. I hope you enjoy discovering and learning
+                        more about Artificial intelligence fields!</p>
+                </div>
             </aside>
 
             <footer class="footer">
@@ -115,6 +115,7 @@
                         <li><a href="#" class="fa fa-twitter-square"></a></li>
                     </ul>
                 </div>
+
                 <div> &copy; Copyright 2022</div>
                 <div class="contact-me"> <a href="#" class="fa fa-envelope"></a>Contact Me</div>
             </footer>

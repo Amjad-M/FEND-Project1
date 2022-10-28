@@ -4,25 +4,24 @@
         <meta charset="UTF-8">
         <title>Amjad's Personal Blog</title>
         <link href="css/main.css" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Quicksand&display=swap' rel='stylesheet'/>
     </head>
 
+
     <body>
         <div class="container">
-            <header class="header">
-                <div id="site-name">Amjad's Personal Blog</div>
-                    <nav>
-                        <ul class="nav-menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#">Gallery</a></li>
-                            <li><a href="#">About Me</a></li>
-                        </ul>
-                    </nav>
-            </header>
+            <div class="header">
+                  <a href="index.html" class="site_name">Amjad's Personal Blog</a>
+                  <div class="header-right">
+                      <a class="active" href="index.html">Home</a>
+                      <a href="#">Gallery</a>
+                      <a href="#">About</a>
+                  </div>
+            </div>
 
             <section class="content">
                 <div class="post-card">
@@ -148,7 +147,6 @@
                         <button class="read-button" formaction="#">Read</button>
                     </form>
                 </div>
-
             </section>
 
             <aside class="sidebar">
@@ -160,9 +158,9 @@
                 </div>
 
                 <div class="author-info">
-                    <img src="images/actor woman.png" alt="blog-author">
-                    <p class="author">Welcome to my blog! I'm Amjad Alsuhaimi, an Artificial
-                        Intelligence Engineer. I hope you enjoy discovering and learning
+                    <img class="author-image" src="images/actor woman.png" alt="blog-author">
+                    <p class="author">Welcome to my blog! I'm <b>Amjad Alsuhaimi</b>, an <span class="author-job">Artificial
+                        Intelligence Engineer</span>. I hope you enjoy discovering and learning
                         more about Artificial intelligence fields!</p>
                 </div>
             </aside>

@@ -2,11 +2,11 @@
 
 .content > div {
 
-    margin-bottom: 20px;
+    margin-bottom: 10%;
 }
 /* Post Card and Content*/
 .post-card {
-    max-width: 550px;
+    max-width: 450px;
     text-align: center;
     padding: 10px 20px 20px 20px;
     box-shadow: 0 5px 15px rgb(1 1 1 / 15%);
@@ -16,10 +16,10 @@
 .post-card-p {
     padding: 10px 10px 10px 10px;
     box-shadow: 0 5px 10px rgb(1 1 1 / 15%);
-    font-style: italic;
+    font-style: normal;
     text-align: justify;
-    font-size: 0.9em;
-    height:210px;
+    font-size: 100%;
+    height:auto
 }
 
 .button-pad{
@@ -27,10 +27,10 @@
     padding-bottom: 10%;
 }
 
-.post-card-image {
-    height: auto;
-
-}
+ .post-card-image {
+        width: 40%;
+        height: auto;
+   }
 
 .post-card h2 {
     font-size: 1.1em;
@@ -39,17 +39,17 @@
 
 /* Date and Time*/
 .fa-calendar-o{
-    padding-right: 5px;
+    padding-right: 3%;
 }
 
 .fa-clock-o {
-    padding-right: 5px;
-    padding-left: 10px;
+    padding-right: 3%;
+    padding-left: 5%;
 }
 
 .fa-p{
-    padding-bottom:1px;
-    font-size: 0.85em;
+    padding-bottom:1%;
+    font-size: 80%;
     color: #c77f4d;
 }
 
